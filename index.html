@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="container">
+    <h1 class="logo">Sangam Maurya </h1>
+    <button class="menu-btn" onclick="toggleMenu()">☰</button>
+</header>
+<nav id="navMenu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+   <section class="hero container">
+    <h2>Build the Future with Clean Code</h2>
+    <p>A fully responsive interface crafted using pure HTML, CSS & JavaScript.</p>
+    <button class="primary-btn" onclick="showMessage()">Explore Now</button>
+</section>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <h3>🚀 Welcome to My Project</h3>
+        <p>Designed & Developed by Sangam Maurya using pure HTML, CSS & JavaScript.</p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>
+    <section class="cards">
+        <article class="card">
+            <h3>HTML5</h3>
+            <p>Semantic structure for accessibility.</p>
+        </article>
+        <article class="card">
+            <h3>CSS3</h3>
+            <p>Responsive design with Grid & Flexbox.</p>
+        </article>
+        <article class="card">
+            <h3>JavaScript</h3>
+            <p>Basic interactivity & DOM manipulation.</p>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 My Project | DecodeLabs Task</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
