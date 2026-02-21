@@ -1,5 +1,9 @@
 # Responsive Frontend Project
 
+## 📸 Project Preview
+
+![Project Screenshot](preview.png)
+
 This project was built as part of my Full Stack Development Internship.
 
 ## 🚀 Technologies Used
