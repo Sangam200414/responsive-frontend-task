@@ -12,6 +12,6 @@ This project was built as part of my Full Stack Development Internship.
 - JavaScript (Popup Interaction)
 
 ## 🌐 Live Demo
-https://sangam-responsive-task.netlify.app/
+[View Live Project](https://sangam-responsive-task.netlify.app/)
 
 Developed by Sangam Maurya.
