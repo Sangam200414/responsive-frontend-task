@@ -1,12 +1,7 @@
 function toggleMenu() {
   const nav = document.getElementById("navMenu");
-  nav.style.display = nav.style.display === "flex" ? "none" : "flex";
-}
-
-function scrollToSection() {
-  document.querySelector(".cards").scrollIntoView({
-    behavior: "smooth"
-  });
+  nav.style.display =
+    nav.style.display === "flex" ? "none" : "flex";
 }
 
 function showMessage() {
